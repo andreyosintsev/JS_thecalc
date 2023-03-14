@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background: linear-gradient(120deg, #AAFFAA, #FFAAAA, #FFFFAA);
+}
+.wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 3px 3px #DDDDDD;
+}
+.monitor {
+    height: 30px;
+    margin: 20px 20px 10px 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+    background: linear-gradient(to right, #F0F0F0, #F0F0FF);
+    border-radius: 10px;
+}
+.keypad {
+    margin: 10px;
+}
+.keypad-key {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 15%;
+    border: none;
+    background-color: #f5fc9d;
+    cursor: pointer;
+    font-size: 30px;
+}
+.key-double {
+    border-radius: 25%;
+    width: 205px;
+}
+.action {
+    background-color: #a0a749;
+}
+.keypad-key:hover {
+    background-color: #ddd346;
+}
